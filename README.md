@@ -16,6 +16,9 @@ The site has the following functionalities:
 ## Live URL
 https://laszlosomogyimusic.github.io/bootcamp-module2-challenge/
 
+## Reused Code
+reset.css was taken from the internal example projects entirely. Also the initialisation entries in style.css were copied from provided internal exam projects.
+
 ## Mock-up
 ### Wide Screen (laptop or PC)
 ![portfolio wide](./images/mockup-wide.png)
