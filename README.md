@@ -14,7 +14,7 @@ The site has the following functionalities:
 * When the page is resized or viewed on various screens and devices then the layout is responsive and adapts to the viewport
 
 ## Live URL
-TODO
+https://laszlosomogyimusic.github.io/bootcamp-module2-challenge/
 
 ## Mock-up
 ### Wide Screen (laptop or PC)
