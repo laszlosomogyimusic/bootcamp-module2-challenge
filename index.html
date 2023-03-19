@@ -5,41 +5,80 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Lernantino // Web Developer</title>
-  <link rel="stylesheet" href="./assets/css/style.css" />
+  <title>Laszlo Somogyi // Musician // Web Developer</title>
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 
 <body>
   <!-- main logo / nav -->
   <header>
-    <h1>Lernantino</h1>
-    <nav>
+    <h1>Laszlo Somogyi</h1>
+    <nav id="navigation">
+      <a href="#about-left">About me</a>
+      <a href="#work-left">Work</a>
+      <a href="#contact-left">Contact Me</a>
     </nav>
   </header>
 
   <!-- hero banner -->
   <section class="hero-banner">
-    <div>
-      <h2>Cool subtitle here!</h2>
-    </div>
+    <h2>Bass players play bom bom bom.</h2>
   </section>
 
   <main class="page-wrapper">
     <!-- about me -->
-    <section class="page-section" id="about">
-      <h2>About Me</h2>
+    <section id="about-left" class="left-side">
+      <h3>About Me</h2>
+    </section>
+    <section id="about-right" class="right-side">
+      <p>Hi I'm Laszlo. I'm a web developer and a musician, mainly bass player.<br>
     </section>
 
-    <!-- portfolio container -->
-    <section class="page-section" id="work">
-      <h2>Work</h2>
+    <!-- portfolio -->
+    <section id="work-left" class="left-side">
+      <h3>Work</h3>
     </section>
+    <section id="work-right" class="work-items">
+      <section id="work1" class="work-item">
+        <div class="work-item-content">
+          <h4>Release The Kitten - This House Is Ours</h4>
+          <p>First single after a long break. You can check this on <a href="https://www.youtube.com/watch?v=hdJIyVb4DvI" target="_blank">Youtube</a> or on <a href="https://open.spotify.com/track/5yQHycqUgQzBNATfRVbmUZ?si=83f38f6e538c480c" target="_blank">Spotify</a>.</p>
+        </div>
+      </section>
+      <section id="work2" class="work-item">
+        <div class="work-item-content">
+          <h4>Low Fat Bass</h4>
+          <p>Bass samples for music producers. It can be downloaded from <a href="https://www.pianobook.co.uk/profile/laszlosomogyimusic/" target="_blank">here</a>.</p>
+        </div>
+      </section>
+      <section id="work3" class="work-item">
+        <div class="work-item-content">
+          <h4>Work 3</h4>
+          <p>Nothing to show yet</p>
+        </div>
+      </section>      
+      <section id="work4" class="work-item">
+        <div class="work-item-content">
+          <h4>Work 4</h4>
+          <p>Nothing to show yet</p>
+        </div>
+      </section>  
+      <section id="work5" class="work-item">
+        <div class="work-item-content">
+          <h4>Work 5</h4>
+          <p>Nothing to show yet</p>
+        </div>
+      </section>            
+    </section>    
 
     <!-- contact -->
-    <section class="page-section contact" id="contact">
-      <h2>Contact Me</h2>
+    <section id="contact-left" class="left-side">
+      <h3>Contact</h3>
+    </section>
+    <section id="contact-right" class="right-side">
+      <p>Contact me on Instagram <a href="https://www.instagram.com/releasethekitten/">@releasethekitten</a></p>
     </section>
   </main>
 </body>
-
 </html>
